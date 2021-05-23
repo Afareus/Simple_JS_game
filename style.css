@@ -1,0 +1,131 @@
+* {     
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.allPage {
+    background: linear-gradient( #b34e4b, #471f1e );
+    height: 100vh;
+    position: relative;
+}
+
+.playground {
+    width: 80%;
+    height: 80%;
+    background: #d1ccb4;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.totalScore {
+    width: 180px;
+    border: 2px solid #ad4f34;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 30px;
+    color: #471f1e;
+    font-weight: 700;
+    text-align: center;
+}
+
+.totalScore p:nth-of-type(2) {
+    font-size: 40px;  
+}
+
+.totalScore0 {
+    position:absolute;
+    top: 15%;
+    left: 10%;
+    
+}
+
+.totalScore1 {
+    position:absolute;
+    top: 15%;
+    right: 10%;
+}
+
+.currentScore {
+    width: 130px;
+    height: 130px;
+    background-color: #b34e4b;
+}
+
+.currentScore p {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.currentScore p:nth-of-type(2) {
+    font-size: 40px;
+}
+
+.currentScore0 {
+    position: absolute;
+    top: 40%;
+    left: 11.5%;
+}
+
+.currentScore1 {
+    position: absolute;
+    top: 40%;
+    right: 12%;
+}
+
+.middleText {
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    text-align: center;
+    font-size: 32px;
+    color:rgb(255, 255, 255)
+}
+
+.btn {
+    width: 260px;
+    border: 2px solid #ad4f34;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #AD4F34;    
+    
+}
+
+.btn:hover {
+    border: 2px solid #D2263d;
+    background-color: #d2263d;
+}
+
+.dice {
+    position: absolute;
+    top: 30%;
+    left: 45%;
+}
+
+.active {
+    color: #fff;
+    border: 2px solid #ad4f34;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #ad4f34;
+}
+
+.message {
+    position: absolute;
+    top: 5%;
+    left: 41%;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.message1 {
+    position: absolute;
+    top: 11%;
+    left: 34.5%;
+    font-size: 20px;
+    font-weight: 700;
+}
